@@ -1,8 +1,8 @@
 import './polyfills';
 
-import {CdkTableModule} from '@angular/cdk/table';
-import {CdkTreeModule} from '@angular/cdk/tree';
-import {NgModule} from '@angular/core';
+import { CdkTableModule } from '@angular/cdk/table';
+import { CdkTreeModule } from '@angular/cdk/tree';
+import { NgModule } from '@angular/core';
 import {
   MatAutocompleteModule,
   MatBadgeModule,
@@ -40,7 +40,7 @@ import {
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
-import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 
 @NgModule({
@@ -84,7 +84,7 @@ import { AppModule } from './app/app.module';
     MatTreeModule,
   ]
 })
-export class DemoMaterialModule {}
+export class DemoMaterialModule { }
 
 
 platformBrowserDynamic().bootstrapModule(AppModule);

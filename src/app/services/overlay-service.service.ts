@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MyOverlayComponent } from '../my-overlay/my-overlay.component';
 
-@Injectable({providedIn: "root"})
+@Injectable({ providedIn: "root" })
 export class OverlayServiceService {
 
   constructor() { }

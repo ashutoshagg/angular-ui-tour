@@ -17,21 +17,20 @@ import { ButtonTypesExample } from './button-types/button-types-example';
 import { MyOverlayComponent } from './my-overlay/my-overlay.component';
 
 @NgModule({
-    imports: [
-      BrowserModule,
-      BrowserAnimationsModule,
-      FormsModule,
-      HttpClientModule,
-      DemoMaterialModule,
-      MatNativeDateModule,
-      ReactiveFormsModule,
-      OverlayModule,
-      PortalModule
-    ],
-    entryComponents: [ButtonTypesExample],
-    declarations: [ButtonTypesExample, MyOverlayComponent],
-    bootstrap: [ButtonTypesExample],
-    providers: []
-  })
-  export class AppModule {}
-  
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
+    DemoMaterialModule,
+    MatNativeDateModule,
+    ReactiveFormsModule,
+    OverlayModule,
+    PortalModule
+  ],
+  entryComponents: [ButtonTypesExample],
+  declarations: [ButtonTypesExample, MyOverlayComponent],
+  bootstrap: [ButtonTypesExample],
+  providers: []
+})
+export class AppModule { }

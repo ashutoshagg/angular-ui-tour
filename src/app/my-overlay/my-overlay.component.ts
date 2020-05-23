@@ -57,7 +57,7 @@ export class MyOverlayComponent implements OnInit, OnDestroy {
     this.overlayRef = overlayRef;
     overlayRef.detachments().subscribe(() => {
       this.renderer.removeClass(this.nativeElement, 'elevate');
-    this.renderer.removeAttribute(this.nativeElement, 'id');
+      this.renderer.removeAttribute(this.nativeElement, 'id');
     });
     overlayRef.attach(this.portal);
     this.renderer.addClass(this.nativeElement, 'elevate');
